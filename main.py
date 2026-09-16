@@ -6,8 +6,6 @@ import os
 # Load environment variables
 load_dotenv()
 
-# Import voice tool to load Whisper on startup
-from tools.voice_tool import whisper_model
 
 # Import routers
 from webhooks.whatsapp_webhook import router as webhook_router
