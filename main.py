@@ -20,7 +20,7 @@ app = FastAPI(title="WhatsApp AI CRM", version="2.0.0")
 # CORS Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://sales-flow-ai-mu.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
